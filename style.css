@@ -67,7 +67,7 @@ button i{
     padding-right: 177px;
     margin-top: 146px;
 }
-/* Nav Section End */
+/* Hero Section End */
 /* Logo Bar Start */
 .logo_bar{
     padding-top: 103px;
@@ -77,3 +77,34 @@ button i{
     border-bottom: 1px solid #707070;
 }
 /* Logo Bar End */
+/* Secvice section Start */
+.service{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    border-bottom: 1px solid #707070;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 251px;
+}
+.item i{
+    font-size: 25px;
+    color: #06C167;
+    border: 1px solid #F3FCF7;
+    padding: 20px;
+    background-color: #F3FCF7;
+    border-radius: 15px;
+}
+.text h6{
+    font-size: 18px;
+}
+.text p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* Secvice section End */
