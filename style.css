@@ -2,12 +2,13 @@
 
 *{
     padding: 0;
-    margin: 0 auto;
+    margin: 0 ;
 }
 body{
     max-width: 1440px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    margin: 0 auto;
 }
 /* Nav Section End */
 header{
@@ -108,3 +109,88 @@ button i{
     margin-top: 10px;
 }
 /* Secvice section End */
+/* Healthy Food Section start */
+.healthy_food{
+    display: flex;
+    margin-top: 155px;
+    padding-left: 160px;
+}
+.healthy_foot_text{
+    margin-top: 65px;
+    width: 700px;
+    margin-left: 108px;
+}
+.healthy_foot_text h1{
+    font-size: 60px;
+}
+.healthy_foot_text p{
+    margin-bottom: 19px;
+    font-size: 15px;
+}
+.items{
+    margin-top: 66px;
+}
+.texts{
+    display: flex; 
+}
+.texts i{
+    display: flex;
+    color: #06C167;
+    margin-left: 25px;
+}
+/* Healthy Food Section End */
+/* Veggie Food Start */
+
+.veggie_food{
+    display: flex;
+    margin-top: 205px;
+}
+.veggie_foot_text{
+    margin-top: 65px;
+    width: 700px;
+    margin-left: 108px;
+    gap: 60px;
+}
+.veggie_foot_text h1{
+    font-size: 60px;
+}
+.veggie_foot_text p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.product{
+    margin-top: 54px;
+    display: flex;
+    gap: 85px;
+}
+
+.title h5{
+    display: flex;
+    color: #06C167;
+    font-size: 40px;
+    justify-content: center;
+}
+button{
+     padding: 28px;
+     margin-top: 50px;
+    background-color: #06C167;
+    border-radius: 15px;
+    display: flex;
+    border: 0;
+    color: white;
+}
+.veggie_img{
+    padding-right: 130px;
+}
+/* Veggie Food End */
+
+
+
+
+
+
+
+
+
+
+/* Healthy Food Section */
