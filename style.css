@@ -120,7 +120,6 @@ button i{
 .healthy_foot_text{
     margin-top: 65px;
     width: 700px;
-    margin-left: 108px;
 }
 .healthy_foot_text h1{
     font-size: 60px;
@@ -152,7 +151,6 @@ button i{
     margin-top: 65px;
     width: 700px;
     margin-left: 95px;
-    gap: 60px;
 }
 .veggie_foot_text h1{
     font-size: 63px;
@@ -240,7 +238,7 @@ button i{
 /* Popular Product Section Start */
 .popular_item_card{
   margin-top: 192px;
-  padding-left: 139px;
+  padding-left: 135px;
 }
 .populer_item_text{
     margin-bottom: 65px;
@@ -258,7 +256,6 @@ button i{
 .popular_card{
     border: 1px solid #06C167;
     width: 270px;
-    justify-content: center;
     border-radius: 12px;
     
 }
@@ -292,3 +289,27 @@ del{
     color: #06C167;
 }
 /* Popular Product Section End */
+/* Button Background Start */
+.last_bg{
+    background-image: url(img/Last\ BG.png);
+    height: 95vh;
+    width: 1173px;
+    background-repeat: no-repeat;
+   margin: 173px 139px 63px 135px;
+   border-radius: 16px;
+}
+.img_text{
+    width: 800px;
+    color: white;
+    padding: 109px 174px 36px 197px;
+    font-size: 60px;
+    text-align: center;
+}
+.bg_button{
+    margin: 0 480px 86px 480px;
+    padding: 30px 40px;
+    border-radius: 16px;
+    background-color: #06C167;
+    color: white;
+}
+/* Button Background End */
