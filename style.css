@@ -212,7 +212,7 @@ button i{
 .variety_card{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    grid-template-columns: repeat(3,auto);
 }
 .card img{
     width: 290px;
@@ -236,5 +236,59 @@ button i{
    margin-left: 37px;
    color: #06C167;
 }
-
 /* Variety Food Section End  */
+/* Popular Product Section Start */
+.popular_item_card{
+  margin-top: 192px;
+  padding-left: 139px;
+}
+.populer_item_text{
+    margin-bottom: 65px;
+}
+.populer_item_text p{
+    margin-bottom: 19px;
+}
+.populer_item_text h1{
+    font-size: 60px;
+}
+.card_item{
+    display: flex;
+    gap: 30px;
+}
+.popular_card{
+    border: 1px solid #06C167;
+    width: 270px;
+    justify-content: center;
+    border-radius: 12px;
+    
+}
+.popular_img{
+    margin: 25px 40px 0 40px;
+}
+.star{
+    text-align: center;
+    color: #06C167;
+}
+.card_title{
+    text-align: center;
+    margin-top: 20px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 25px;
+    color: #06C167;
+}
+del{
+    color: #767675;
+}
+.button_card{
+    padding: 17px 30px;
+    margin: 28px 47px;
+    background-color: transparent;
+    border:2px solid #06C167;
+    border-radius: 12px;
+    color: #06C167;
+}
+/* Popular Product Section End */
