@@ -33,7 +33,7 @@ header{
     width: 600px;
     justify-content: space-evenly;
 }
-.color{
+.nav_item li:hover{
     color: #06C167;
 }
 .hero_section{
@@ -208,15 +208,11 @@ button i{
 .card{
    display: flex;
     border: 1px solid #06C167;
-    max-width: ;
 }
 .variety_card{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0;
-}
-.card img{
-    width: 290px;
+    grid-template-columns:auto auto;
+    justify-content: center;
 }
 .card_text{
     border: 1px solid #06C167;
@@ -226,6 +222,7 @@ button i{
 .card_text h1{
     margin: 37px;
     font-size: 32px;
+    max-width: 227px;
 }
 .card_text p{
     margin: 37px;
@@ -256,11 +253,14 @@ button i{
     display: flex;
     gap: 30px;
 }
+
 .popular_card{
-    border: 1px solid #06C167;
+    border: 2px solid #767675;
     width: 270px;
     border-radius: 12px;
-    
+}
+.popular_card:hover{
+    border-color: #06C167;
 }
 .popular_img{
     margin: 25px 40px 0 40px;
