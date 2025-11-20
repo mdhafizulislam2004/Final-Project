@@ -190,6 +190,8 @@ button i{
     display: flex;
     text-align: center;
     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2);
 }
 .fiture button{
     padding: 15px;
@@ -204,13 +206,14 @@ button i{
     margin-bottom: 70px;
 }
 .card{
-    display: flex;
+   display: flex;
     border: 1px solid #06C167;
+    max-width: ;
 }
 .variety_card{
-    display: flex;
-    justify-content: center;
-    grid-template-columns: repeat(3,auto);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
 }
 .card img{
     width: 290px;
@@ -270,6 +273,9 @@ button i{
     text-align: center;
     margin-top: 20px;
 }
+.card_title h5{
+    font-size: 20px;
+}
 .price{
     display: flex;
     justify-content: center;
@@ -292,7 +298,6 @@ del{
 /* Button Background Start */
 .last_bg{
     background-image: url(img/Last\ BG.png);
-    height: 95vh;
     width: 1173px;
     background-repeat: no-repeat;
    margin: 173px 139px 63px 135px;
@@ -313,3 +318,77 @@ del{
     color: white;
 }
 /* Button Background End */
+/* Footer Section Start */
+.footer_area{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 135px;
+    margin-bottom: 95px;
+    padding-top: 149px;
+}
+.foodies_ditels{
+    width: 285px;
+    margin-right: 150px;
+}
+.foodies_text h1{
+    margin-bottom: 40px;
+    color: #06C167;
+    font-size: 32px;
+}
+.foodies_text p{
+    margin-bottom: 51px;
+}
+.ml_25{
+    margin-left: 25px;
+}
+.mr_25{
+    margin-right: 25px;
+}
+.about{
+    width: 107px;
+}
+.about h4{
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.about p{
+    margin-bottom: 15px;
+}
+.ditels{
+    margin-bottom: 5px;
+}
+.input{
+    width: 338px;
+}
+.input h1{
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.input p{
+    margin-bottom: 36px;
+}
+.footer_input{
+    display: flex;
+}
+.footer_button{
+    padding: 16px 142px 16px 24px;
+    width: 50%;
+    background-color: #F0F1EC;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+}
+.btn{
+    padding: 15px 22px;
+    margin-left: 15px;
+    background-color: #06C167;
+    border: 0;
+    color: white;
+    border-radius: 12px;
+}
+.copy_right{
+ text-align: center;
+    width: 1440px;
+    margin-bottom: 37px;
+}
+/* Footer Section End */
