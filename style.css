@@ -593,8 +593,10 @@ del{
     width: 293px;
     flex-direction: column;
 }
+.img_text h1{
+    font-size: 35px;
+}
 .bg_button{
-   justify-content: center;
    width: 325px;
     margin: 0 auto;
 }
