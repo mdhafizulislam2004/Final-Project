@@ -203,7 +203,7 @@ button i{
     text-align: center;
     justify-content: center;
     display: grid;
-    /* grid-template-columns: repeat(2); */
+    grid-template-columns: repeat(2);
 }
 .fiture button{
     padding: 15px;
@@ -223,7 +223,7 @@ button i{
 }
 .variety_card{
     display: grid;
-    grid-template-columns:auto auto;
+    grid-template-columns: auto auto;
     justify-content: center;
 }
 .card_text{
@@ -515,12 +515,14 @@ del{
         flex-direction: column;
         width: 100%;
         margin: 0 auto;
-        padding:28px;
+        padding:18px;
         align-items: center;
     }
     .veggie_foot_text h1{
-        font-size: 33px;
+        font-size: 35px;
         text-align: center;
+        width: 370px;
+        justify-content: center;
     }
     .veggie_foot_text p{
         text-align: center;
@@ -534,7 +536,7 @@ del{
     }
     .product h5{
         font-size: 40px;
-        width: 325px;
+        /* width: 325px; */
     }
     .promo{
         width: 100%;
@@ -547,58 +549,55 @@ del{
     .phone_juce{
         display: block;
         margin: 0 auto;
-        padding: 65px;
+        padding: 69px 55px;
     }
     /* Verity Of Foods */
-    .variety_foods{
+    .variety_card{
+        flex-direction: column;
+        grid-template-columns: auto;
+    }
+    .card{
         flex-direction: column;
     }
+    /* Popular Product Section */
+    .popular_item_text {
+        margin: 0;
+    }
+    .populer_item_text h1{
+        font-size: 35px;
+        margin-top: 13px;
+        margin-bottom: 69px;
+        text-align: center;
+       margin-left: 50px;
+    }
+    .populer_item_text p{
+        text-align: center;
+        padding-top: 129px;
+    }
+    .popular_item_card{
+        margin: 0;
+        padding: 0;
+    }
+    .card_item{
+        flex-direction: column;
+        padding: 69px 28px;
+        margin-left: 50px;
+    }
+/* Button Background Section */
+.last_bg{
+    flex-direction: column;
+    margin: 0;
+    background-size: cover;
+}
+.img_text{
+    width: 293px;
+    flex-direction: column;
+}
+.bg_button{
+   justify-content: center;
+   width: 325px;
+    margin: 0 auto;
 }
 
-/* @media screen and (max-width:375px) { */
 
-    /* navbar */
-    /* .nav_bar {
-        padding: 24px 30px;
-    }
-
-    .nav_item {
-        display: none;
-    }
-
-    .menu-btn {
-        display: block;
-    } */
-
-    /* hero section */
-    /* .hero_section {
-        padding: 0 10px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        margin-top: 50px;
-    }
-
-    .hero_title {
-        text-align: center;
-    }
-
-    .hero_img img{
-        max-width: 320px;
-    }
-
-    .logo{
-        width: 200px;
-    }
-
-    .hero_title h1{
-        max-width: 320px;
-        font-size: 51px;
-        margin-top: 0 auto;
-    }
-    .hero_title p{
-        max-width: 320px;
-    }
-
-} */
+}
