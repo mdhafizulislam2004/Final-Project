@@ -5,6 +5,9 @@
     padding: 0;
     margin: 0 ;
 }
+ .menu_btn{
+        display: none;
+    }
 body{
     max-width: 1440px;
      font-family: "Inter", sans-serif;
@@ -12,13 +15,12 @@ body{
     margin: 0 auto;
 }
 /* Nav Section End */
-header{
+.header_section{
     background-color: #F3FCF7;
 }
 .logo{
     font-size: 32px;
     color: #06C167;
-    width: 500px;
 }
 
 .nav_bar{
@@ -26,6 +28,7 @@ header{
     justify-content: space-between;
     padding: 40px 130px;
     font-weight: 500;
+    align-items: center;
 }
 .nav_item{
     display: flex;
@@ -41,8 +44,10 @@ header{
     justify-content: space-between;
 }
 .hero_title{
-    margin-left: 135px;
-    margin-top: 110px;
+    /* margin-left: 135px; */
+    padding-left: 135px;
+    margin: 0 auto;
+    padding-top: 173px;
 }
 .hero_title h1{
 max-width: 585px;
@@ -68,6 +73,9 @@ button i{
 .hero_img{
     padding-right: 177px;
     margin-top: 146px;
+}
+.phone_img{
+    display: none;
 }
 /* Hero Section End */
 /* Logo Bar Start */
@@ -115,11 +123,12 @@ button i{
     display: flex;
     margin-top: 155px;
     padding-left: 160px;
-    gap: 108px;
+    /* gap: 108px; */
 }
 .healthy_foot_text{
     margin-top: 65px;
     width: 700px;
+    padding-left: 108px;
 }
 .healthy_foot_text h1{
     font-size: 60px;
@@ -146,6 +155,9 @@ button i{
     display: flex;
     margin-top: 205px;
     gap: 59px;
+}
+.phone_juce{
+    display: none;
 }
 .veggie_foot_text{
     margin-top: 65px;
@@ -191,7 +203,7 @@ button i{
     text-align: center;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(2);
+    /* grid-template-columns: repeat(2); */
 }
 .fiture button{
     padding: 15px;
@@ -392,3 +404,201 @@ del{
     margin-bottom: 37px;
 }
 /* Footer Section End */
+/* Responsive For Mobile */
+@media screen and (max-width:575px) {
+    /* Nav Bar */
+    /* .logo{
+        width: 200px;
+    } */
+    .header_section{
+        width: 100%;
+        justify-content: center;
+    }
+    .hero_section{
+        width: 100%;
+    }
+    .hero_section{
+        padding: 47px 25px;
+        width: 100%;
+    }
+    .nav_bar{
+        padding: 20px 28px;
+    }
+    .nav_item{
+        display: none;
+        width: 320px;
+    }
+    .menu_btn{
+        display: block;
+    }
+    /* Hero Section */
+    .hero_section{
+      padding: 0;
+        flex-direction: column;
+        max-width: 100%;
+        
+    }
+    .hero_title{
+        margin: 0;
+       padding: 0 10px;
+        max-width: 100%;
+       text-align: center;
+    }
+    .hero_title h1{
+        margin-top: 51px;
+        font-size: 51px;
+        margin-bottom: 8px;
+    }
+    .hero_title p{
+        font-size: 14px;
+        margin-bottom: 53px;
+    }
+    .hero_title button{
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .hero_img{
+       display: none;
+       
+    }
+    .phone_img{
+        display: block;
+        margin:47px auto 0 auto ;
+        padding: 0 27px;
+        align-items: center;
+
+    }
+    /* Logo Bar */
+    .logo_bar{
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    /* Main Section */
+    .service{
+        flex-wrap: wrap;
+        gap: 65px;
+        justify-content: center;
+    }
+    .item{
+        flex-direction: column;
+        justify-content: center;
+       width: auto;
+    }
+    /* Healthy Food section */
+    .healthy_food{
+        flex-direction: column;
+        margin:0;
+        padding: 38px 28px;
+    }
+    .healthy_foot_text{
+        width: 100%;
+        margin-top: 0;
+        padding: 57px 28px;
+    }
+    .healthy_foot_text h1{
+        font-size: 35px;
+    }
+    .healthy_foot_text p{
+    text-align: center;
+    }
+    /* Veggie Food section */
+    .veggie_food{
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 0;
+    }
+    .veggie_foot_text{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        padding:28px;
+        align-items: center;
+    }
+    .veggie_foot_text h1{
+        font-size: 33px;
+        text-align: center;
+    }
+    .veggie_foot_text p{
+        text-align: center;
+        padding-bottom: 13px;
+    }
+    .product{
+        flex-direction: column;
+        /* text-align: center; */
+        gap: 38px;
+        align-items: center;
+    }
+    .product h5{
+        font-size: 40px;
+        width: 325px;
+    }
+    .promo{
+        width: 100%;
+        justify-content: center;
+        border-radius: 0;
+    }
+    .veggie_img{
+        display: none;
+    }
+    .phone_juce{
+        display: block;
+        margin: 0 auto;
+        padding: 65px;
+    }
+    /* Verity Of Foods */
+    .variety_foods{
+        flex-direction: column;
+    }
+}
+
+/* @media screen and (max-width:375px) { */
+
+    /* navbar */
+    /* .nav_bar {
+        padding: 24px 30px;
+    }
+
+    .nav_item {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    } */
+
+    /* hero section */
+    /* .hero_section {
+        padding: 0 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-top: 50px;
+    }
+
+    .hero_title {
+        text-align: center;
+    }
+
+    .hero_img img{
+        max-width: 320px;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .hero_title h1{
+        max-width: 320px;
+        font-size: 51px;
+        margin-top: 0 auto;
+    }
+    .hero_title p{
+        max-width: 320px;
+    }
+
+} */
